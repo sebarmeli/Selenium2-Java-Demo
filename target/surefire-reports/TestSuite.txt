@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.762 sec <<< FAILURE!
+testH1Existing(com.selenium2.pages.HomePageTest)  Time elapsed: 30.456 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '14666', revision: 'unknown', time: '2011-11-10 19:22:03'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.2', java.version: '1.6.0_26'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:131)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:105)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:193)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByTagName(RemoteWebDriver.java:234)
+	at org.openqa.selenium.By$ByTagName.findElement(By.java:314)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:185)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:60)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:35)
+	at $Proxy10.getText(Unknown Source)
+	at com.selenium2.pages.HomePage.getH1(HomePage.java:27)
+	at com.selenium2.pages.HomePageTest.testH1Existing(HomePageTest.java:24)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element
+Build info: version: '14666', revision: 'unknown', time: '2011-11-10 19:22:03'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.2', java.version: '1.6.0_26'
+Driver info: driver.version: unknown
+
