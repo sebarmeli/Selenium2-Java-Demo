@@ -2,6 +2,6 @@ This project is generated form the "Selenium2-Java-QuickStart" Archetype you can
 
 It contains few examples shown at the Open Source Developer Conference 2011 (package com.selenium2.examples in src/test/java folder). 
 
-To cloen the project, just run:
+To clone this project, just run:
 
 	git clone git://github.com/sebarmeli/Selenium2-Java-Demo.git
